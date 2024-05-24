@@ -11,6 +11,10 @@ This is the official repository for the ICML 2024 paper: **Breaking the Barrier:
   <img src="./fig/comparison.png" width="80%" height="80%" />
 </p>
 
+## Overview
+<p align="center">
+  <img src="./fig/overview.png" width="80%" height="80%" />
+</p>
 
 ## S-DQN (Smoothed - Deep Q Network)
 <p align="center">
