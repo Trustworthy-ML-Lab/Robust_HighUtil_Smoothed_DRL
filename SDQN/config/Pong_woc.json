@@ -1,0 +1,14 @@
+{
+    "env_id": "PongNoFrameskip-v4",
+	"name_suffix": "_woc",
+    "training_config": {
+        "env_params": {
+            "crop_shift": 10,
+            "restrict_actions": 4
+        }
+        
+    },
+	"test_config": {
+		  "load_model_path": "models/Pong-wocar.pth"		
+	}
+}

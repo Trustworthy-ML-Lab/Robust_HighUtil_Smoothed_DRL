@@ -1,0 +1,13 @@
+{
+    "env_id": "RoadRunnerNoFrameskip-v4",
+	"name_suffix": "_woc",
+    "training_config": {
+        "env_params": {
+            "crop_shift": 20,
+            "restrict_actions": true
+        }
+    },
+	"test_config": {
+		  "load_model_path": "models/RoadRunner-wocar.pth"		
+	}
+}

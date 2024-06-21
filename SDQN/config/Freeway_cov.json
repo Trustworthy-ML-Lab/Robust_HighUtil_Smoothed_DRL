@@ -1,0 +1,12 @@
+{
+    "env_id": "FreewayNoFrameskip-v4",
+ 	  "name_suffix": "_cov",
+    "training_config": {
+        "env_params": {
+            "crop_shift": 0
+        }
+    },
+   	"test_config": {
+		  "load_model_path": "models/Freeway-convex.model"		
+	}
+}

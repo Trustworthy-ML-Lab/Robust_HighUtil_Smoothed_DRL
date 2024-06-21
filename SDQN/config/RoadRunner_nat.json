@@ -1,0 +1,13 @@
+{
+    "env_id": "RoadRunnerNoFrameskip-v4",
+    "training_config": {
+        "env_params": {
+            "crop_shift": 20,
+            "restrict_actions": true
+        },
+        "robust": false
+    },
+   	"test_config": {
+		  "load_model_path": "models/RoadRunner-natural.model"
+	}
+}

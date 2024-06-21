@@ -1,0 +1,12 @@
+{
+    "env_id": "PongNoFrameskip-v4",
+    "v_lo": -1.7293206453323364,
+    "v_hi": 2.4865362644195557,
+    "training_config": {
+        "env_params": {
+            "crop_shift": 10,
+            "restrict_actions": 4
+        },
+        "robust": false
+    }
+}

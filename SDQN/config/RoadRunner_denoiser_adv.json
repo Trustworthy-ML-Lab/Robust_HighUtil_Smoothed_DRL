@@ -1,0 +1,33 @@
+{
+    "env_id": "RoadRunnerNoFrameskip-v4",
+	"name_suffix": "_denoiser_adv_0.05",
+    "training_config": {
+        "env_params": {
+            "crop_shift": 20,
+            "restrict_actions": true
+        },
+        "robust": false,
+		"sigma": 0.05,
+		"sigma_start": 0,
+		"end_increase_sigma": 0,
+		"num_frames": 300000,
+		"lr_denoiser": 0.001,
+		"action_epsilon": 0.2,
+		"act_epsilon_decay": 1,
+		"update_rl_model": false,
+		"buffer_params": {"replay_initial": 5000},
+		"batch_size": 64,
+		"load_model_path": "models/RoadRunner-natural.model",
+		"load_denoiser_path": "",
+		"attack_config":{
+			"norm_type": "l_inf", 
+			"method": "pgd",
+			"params":{"epsilon": 0.03, "niters": 5}
+		}
+
+    },
+	"test_config": {
+		"load_denoiser_path": "models/RoadRunner_denoiser_adv_0.05.pth",
+		"load_model_path": "models/RoadRunner-natural.model"
+	}
+}
