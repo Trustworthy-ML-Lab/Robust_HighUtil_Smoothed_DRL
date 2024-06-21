@@ -22,6 +22,7 @@ First, clone our repository. There will be two folders for our SDQN and SPPO imp
 <p align="center">
   <img src="./fig/SDQN_training.png?raw=true" width="80%" height="80%" />
 </p>
+
 ### Setup
 ```
 cd SDQN
@@ -80,6 +81,7 @@ The result will be save to `PongNoFrameskip-v4_denoiser_0.1`. You can find the d
 <p align="center">
   <img src="./fig/SPPO_training.png?raw=true" width="80%" height="80%" />
 </p>
+
 ### Setup
 ```
 cd SPPO
