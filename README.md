@@ -1,5 +1,5 @@
 # Smoothed Robust DRL Agents with Enhanced Utility and Robustness
-This is the official repository for the ICML 2024 paper: **Breaking the Barrier: Enhanced Utility and Robustness in Smoothed DRL Agents**.
+This is the official repository for the ICML 2024 paper: [**Breaking the Barrier: Enhanced Utility and Robustness in Smoothed DRL Agents**](https://arxiv.org/abs/2406.18062).
 
 ## Motivation
 * Recently, there is a growing interest on enabling certifiable robustness in DRL agents using Randomized Smoothing (RS), transforming agents into their *smoothed* counterparts during testing. **Unfortunately, we found that existing smoothed agents (in brown color) demonstrate a notable deficiency**: they yield **substantially lower clean reward** and **little improvement in robustness** compared to their non-smoothed counterparts (in grey color).
