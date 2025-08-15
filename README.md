@@ -198,7 +198,7 @@ Chung-En Sun, Sicun Gao, Tsui-Wei Weng. "Breaking the Barrier: Enhanced Utility 
 ```
 @article{robustRSRL,
    title={Breaking the Barrier: Enhanced Utility and Robustness in Smoothed DRL Agents},
-   author={Chung-En Sun and Sicun Gao and Tsui-Wei Weng},
+   author={Sun, Chung-En and Gao, Sicun and Weng, Tsui-Wei},
    journal={ICML},
    year={2024}
 }
